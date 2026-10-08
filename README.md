@@ -37,6 +37,8 @@ These are historical ticker symbols as represented in the original datasets.
 
 Line plots were used to visualize historical stock prices and examine how individual stocks changed over time.
 
+![Historical Stock Price Comparison](images/1-stock-price-comparison.png)
+
 The analysis includes individual stock-price charts and combined plots comparing Facebook, Twitter, and Netflix.
 
 These visualizations demonstrate how financial time-series data can be used to examine long-term price movements and differences between companies.
@@ -50,9 +52,13 @@ Scatterplots were used to compare daily returns between different stocks, includ
 
 These comparisons provide a visual way to explore whether daily movements in different stocks tend to follow similar patterns.
 
+![Facebook vs. Netflix Daily Returns](images/2-facebook-netflix-daily-returns.png)
+
 ### Daily Return Distributions
 
 Histograms were created to examine the distribution of daily returns.
+
+![Twitter Daily Return Distribution](images/3-twitter-daily-returns-histogram.png)
 
 The analysis also calculated the mean and standard deviation of returns, providing basic statistical context for the visualizations.
 
@@ -69,6 +75,8 @@ These statistics describe the historical observations in the provided dataset an
 
 Combined line plots and subplots were used to visualize stock prices for multiple companies.
 
+![Individual Stock Price Subplots](images/4-stock-price-subplots.png)
+
 This approach demonstrates different ways to present related time-series data, whether on a shared chart or in separate panels.
 
 ### Three-Dimensional Return Visualization
@@ -76,6 +84,8 @@ This approach demonstrates different ways to present related time-series data, w
 A 3D scatterplot was created using the daily returns of Facebook, Twitter, and Netflix.
 
 This exercise explores how three numerical variables can be visualized together using Matplotlib's 3D plotting capabilities.
+
+![Three-Dimensional Stock Return Comparison](images/5-stock-returns-3d-scatterplot.png)
 
 ### Portfolio Allocation Visualization
 
